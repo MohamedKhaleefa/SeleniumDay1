@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-24T17:03:14 IST" name="Suite" finished-at="2023-11-24T17:03:14 IST" duration-ms="194">
+    <groups>
+      <group name="Having">
+        <method signature="Home2.t10()[pri:0, instance:org.subname1.Home2@2a4fb17b]" name="t10" class="org.subname1.Home2"/>
+        <method signature="Home1.t200(java.lang.String,java.lang.String)[pri:2, instance:org.subname1.Home1@48f2bd5b]" name="t200" class="org.subname1.Home1"/>
+      </group> <!-- Having -->
+    </groups>
+    <test started-at="2023-11-24T17:03:14 IST" name="Test" finished-at="2023-11-24T17:03:14 IST" duration-ms="194">
+      <class name="org.subname1.Home2">
+        <test-method signature="t10()[pri:0, instance:org.subname1.Home2@2a4fb17b]" started-at="2023-11-24T17:03:14 IST" name="t10" finished-at="2023-11-24T17:03:14 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t10 -->
+      </class> <!-- org.subname1.Home2 -->
+      <class name="org.subname1.Home1">
+        <test-method signature="t200(java.lang.String,java.lang.String)[pri:2, instance:org.subname1.Home1@48f2bd5b]" started-at="2023-11-24T17:03:14 IST" name="t200" finished-at="2023-11-24T17:03:14 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid UserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Greens@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t200 -->
+        <test-method signature="t200(java.lang.String,java.lang.String)[pri:2, instance:org.subname1.Home1@48f2bd5b]" started-at="2023-11-24T17:03:14 IST" name="t200" finished-at="2023-11-24T17:03:14 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid UserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Greens@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t200 -->
+      </class> <!-- org.subname1.Home1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
